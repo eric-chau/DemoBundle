@@ -89,7 +89,7 @@ EOF
         $website = $this->updateWebsite();
         $output->progressAdvance();
 
-        $output->note(sprintf('✓ Updated Domain to <info>%s</info> with label </info>%s',
+        $output->note(sprintf('✓ Updated Domain to ``%s`` with label ``%s``',
             $website['domain'],
             $website['label']
             )
